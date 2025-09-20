@@ -1,0 +1,12 @@
+server:
+  port: 0
+
+spring:
+  datasource:
+    url: jdbc:postgresql://prod-db-server:5432/nandira_prod
+    username: prod_user
+    password: prod_pass
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
