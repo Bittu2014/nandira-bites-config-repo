@@ -7,7 +7,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/nandira_auth
     username: postgres
     password: postgres
-    driver-class-name: org.postgresql.Driver   # ✅ This line is must
+    driver-class-name: org.postgresql.Driver   # ✅ this line
   jpa:
     hibernate:
       ddl-auto: update

@@ -1,14 +1,14 @@
 server:
-  port: 9081
+  port: 8081
 spring:
   application:
     name: authentication-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/nandira_auth_test
+    url: jdbc:postgresql://localhost:5432/nandira_auth
     username: postgres
     password: postgres
-    driver-class-name: org.postgresql.Driver
+    driver-class-name: org.postgresql.Driver   # ✅ this line
   jpa:
     hibernate:
-      ddl-auto: validate
-    show-sql: false
+      ddl-auto: update
+    show-sql: true
